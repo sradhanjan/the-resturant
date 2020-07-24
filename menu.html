@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>menu</title>
+</head>
+<style>
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'popins',sans-serif;
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(45deg,#ffaf00,#bb02ff);
+	background-attachment: fixed;
+}
+.container
+{
+	position: relative;
+	width: 1150px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.container .card
+{
+	position: relative;
+	width: 300px;
+	height: 420px;
+	background: #fff;
+	margin: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+	transition: 0.5s;
+}
+.container:hover .card
+{
+	filter: blur(20px);
+	transform: scale(0.9);
+	opacity: 0.5;
+}
+.container .card:hover
+{
+	filter: blur(0px);
+	transform: scale(1.1);
+	opacity: 1;
+}
+.container .card .circle1
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(pizza1.png);
+	background-size: 90% 100%;
+	background-position: center;
+	clip-path: circle(180px at center 0);
+	text-align: center;
+}
+.container .card .circle2
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(burger.jpg);
+	background-size: 20% 40%;
+	background-attachment: fixed;
+	background-position: center;
+	clip-path: circle(180px at center 0);
+	text-align: center;
+}
+.container .card .circle3
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(pasta.jpg);
+	background-repeat: no-repeat;
+	background-size: 80% 100%;
+	background-attachment: fixed;
+	background-position: center;
+	clip-path: circle(180px at center 0);
+	text-align: center;
+}
+.container .card .circle4
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(frankie.jpg);
+	background-repeat: no-repeat;
+	background-size: 90% 50%;
+	background-attachment: fixed;
+	background-position: center;
+	clip-path: circle(180px at center 0);
+	text-align: center;
+}
+.container .card .circle5
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(lasagne.jpg);
+	background-repeat: no-repeat;
+	background-size: 90% 50%;
+	background-attachment: fixed;
+	background-position: center;
+	clip-path: circle(180px at center 0);
+	text-align: center;
+}
+.container .card .circle6
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(garlic.jpg);
+	background-repeat: no-repeat;
+	background-size: 80% 60%;
+	background-attachment: fixed;
+	background-position: center;
+	clip-path: circle(180px at center 0);
+	text-align: center;
+}
+.container .card .circle h2
+{
+	color: #fff;
+	font-size: 4.5em;
+	padding: 30px 0;
+}
+.container .card .content
+{
+	position: absolute;
+	bottom: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.container .card .content p
+{
+	color: #666;
+}
+.container .card .content a
+{
+	position: relative;
+	display: inline-block;
+	padding: 10px 20px;
+	background: #000;
+	color: #fff;
+	border-radius: 40px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+h3
+{
+	border: 2px solid black;
+	border-radius: 15px;
+	padding: 10px;
+}
+h3:hover
+{
+	color: white;
+}
+</style>
+<body>
+<div class="container">
+  <div class="card">
+  	<div class="circle1">
+  		<h2></h2>
+  		
+  	</div>
+	<div class="content">
+		<p><strong>PIZZA</strong> is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.)
+		</p>
+		<a href="#">ORDER @399/-</a>
+	</div>
+</div>
+<div class="card">
+  	<div class="circle2">
+  		<h2></h2>
+  		
+  	</div>
+	<div class="content">
+		<p><strong>BURGER</strong> is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled.Hamburgers are often served with cheese, lettuce, tomato, onion, pickles, bacon, or chiles;
+		</p>
+		<a href="#">ORDER @249/-</a>
+	</div>
+</div>
+<div class="card">
+  	<div class="circle3">
+  		<h2></h2>
+  		
+  	</div>
+	<div class="content">
+		<p><strong>PASTA</strong> is the Italian designation given to a type of starchy noodle or dumpling food or dish typically made from grain flour, commonly wheat, mixed into a paste,usually with water or eggs, and formed or cut into sheets or other shapes. It is usually cooked by boiling or frying. 
+		</p>
+		<a href="#">ORDER @199/-</a>
+	</div>
+</div>
+<div class="card">
+  	<div class="circle4">
+  		<h2></h2>
+  		
+  	</div>
+	<div class="content">
+		<p><strong>FRANKIE</strong>Well, in India, it is a well loved street food that originates from the vendors of 1930's old Bombay and was served to ordinary citizens. Our Frankie is our homemade Indian flatbread grilled and stuffed with a variety of delicious fillings and seasoned to suit your taste.
+		</p>
+		<a href="#">ORDER @99/-</a>
+	</div>
+</div>
+<div class="card">
+  	<div class="circle5">
+  		<h2></h2>
+  		
+  	</div>
+	<div class="content">
+		<p><strong>LASAGNE</strong>an Italian dish made of stacked layers of this flat pasta alternating with fillings such as ragù (ground meats and tomato sauce) and other vegetables, cheese and seasonings and spices such as garlic, oregano and basil
+		</p>
+		<a href="#">ORDER @299/-</a>
+	</div>
+</div>
+<div class="card">
+  	<div class="circle6">
+  		<h2></h2>
+  		
+  	</div>
+	<div class="content">
+		<p><strong>GARLIC BREAD</strong>Garlic bread consists of bread, topped with garlic and olive oil or butter and may include additional herbs, such as oregano or chives. It is then either grilled or broiled until toasted or baked in a conventional or bread oven. 
+		</p>
+		<a href="#">ORDER @49/-</a>
+	</div>
+</div>
+<a href="calculator.html"><h3>BILLING COUNTER</h3></a>
+</div>
+
+</body>
+</html>
